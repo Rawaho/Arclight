@@ -1,0 +1,20 @@
+﻿{
+  "Network": {
+    "Host": "0.0.0.0",
+    "Port": 10200
+  },
+  "Database": {
+    "Auth": {
+      "Provider": "MySql",
+      "ConnectionString": "host=127.0.0.1;port=3306;user=arclight;password=arclight;database=arclight_auth;"
+    },
+    "Character": {
+      "Provider": "MySql",
+      "ConnectionString": "host=127.0.0.1;port=3306;user=arclight;password=arclight;database=arclight_character;"
+    },
+    "World": {
+      "Provider": "MySql",
+      "ConnectionString": "host=127.0.0.1;port=3306;user=arclight;password=arclight;database=arclight_world;"
+    }
+  }
+}
