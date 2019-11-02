@@ -8,6 +8,7 @@ using Arclight.Shared.Network.Message;
 using Arclight.Server.World.Network;
 using Arclight.Shared.Command;
 using Arclight.Shared.Database;
+using Arclight.Shared.GameTable;
 using NLog;
 
 namespace Arclight.Server.World
@@ -33,6 +34,8 @@ namespace Arclight.Server.World
 
             ConfigurationManager<WorldServerConfig>.Instance.Initialise("WorldServer.json");
             WorldServerConfig configuration = ConfigurationManager<WorldServerConfig>.Instance.Model;
+
+            GameTableManager.Instance.Initialise("table");
 
             DatabaseManager.Instance.Initialise(configuration.Database);
             DatabaseManager.Instance.Migrate();

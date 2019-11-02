@@ -33,8 +33,4 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="GameTable\" />
-  </ItemGroup>
-
 </Project>

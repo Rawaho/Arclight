@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arclight.Database.Auth", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arclight.Database.World", "Arclight.Database.World\Arclight.Database.World.csproj", "{1251821E-84D6-48F0-A44A-E1CBE6C162EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arclight.Database", "Arclight.Database\Arclight.Database.csproj", "{BC308A5B-F695-4DAF-A81D-17A5FCC43F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arclight.Database", "Arclight.Database\Arclight.Database.csproj", "{BC308A5B-F695-4DAF-A81D-17A5FCC43F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arclight.TableExtractor", "Arclight.TableExtractor\Arclight.TableExtractor.csproj", "{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +127,18 @@ Global
 		{BC308A5B-F695-4DAF-A81D-17A5FCC43F33}.Release|x64.Build.0 = Release|Any CPU
 		{BC308A5B-F695-4DAF-A81D-17A5FCC43F33}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC308A5B-F695-4DAF-A81D-17A5FCC43F33}.Release|x86.Build.0 = Release|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Debug|x64.Build.0 = Debug|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Release|x64.Build.0 = Release|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B424EAB-67B5-42D8-8F2B-D2DEEC4318C6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
